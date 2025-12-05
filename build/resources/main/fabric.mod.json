@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "scb",
+	"version": "1.0.0",
+	"name": "Survival Command BLock",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"jensLMAO"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/scb/icon.png",
+	"environment": "*",
+	"mixins": [
+		"scb.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": ">=1.14",
+		"java": ">=8"
+	}
+}
